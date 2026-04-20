@@ -1,6 +1,6 @@
 # 🎲 Pig Game - Modern JavaScript Edition
 
-**🔗 Live Demo:** [https://ahmed-let-front.github.io/Pig-game/](https://ahmed-let-front.github.io/Pig-game/)
+🔗  [**Live Demo**](https://ahmed-let-front.github.io/Pig-game/)
 
 A professional implementation of the classic **Pig Game**, built with a focus on high performance, clean architecture, and modern JavaScript best practices.
 
