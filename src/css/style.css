@@ -4,12 +4,12 @@
 @theme {
   --font-nunito: "Nunito", sans-serif;
   --color-main-red: #c7365f;
-  --color-bg-purple: #753682;
-  --color-bg-red: #bf2e34;
-  --color-dark-text: #333;
-  --color-winner-bg: #2f2f2f;
-  --color-glass-white: rgba(255, 255, 255, 0.35);
-  --color-active-white: rgba(255, 255, 255, 0.4);
+  --color-bg-purple: #61206e;
+  --color-bg-red: #a12d25;
+  --color-dark-text: #222;
+  --color-winner-bg: #1a1a1a;
+  --color-glass-white: rgba(255, 255, 255, 0.4);
+  --color-active-white: rgba(255, 255, 255, 0.5);
 }
 @layer base {
   html {
@@ -33,9 +33,9 @@
       @apply text-main-red font-[500] text-4xl md:text-8xl;
     }
     .current {
-      @apply bg-main-red rounded-2xl text-white p-4 md:p-8 w-[70%] md:w-1/2 text-2xl md:text-4xl mx-auto mt-auto mb-10 md:my-[10rem_0] transition-colors duration-300 opacity-85;
+      @apply bg-main-red rounded-2xl text-white p-4 md:p-8 w-[70%] md:w-1/2 text-2xl md:text-4xl mx-auto mt-auto mb-10 md:my-[10rem_0] transition-colors duration-300 opacity-95;
       .current-label {
-        @apply text-sm md:text-xl uppercase mb-1 text-[#ddd];
+        @apply text-sm md:text-xl uppercase mb-1;
       }
     }
   }
