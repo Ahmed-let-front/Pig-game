@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pig Game - Responsive Version" />
+    <title>Pig Game</title>
+    <script type="module" crossorigin src="/Pig-game/assets/index-BwmnB8CZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/Pig-game/assets/index-CqmDo9tH.css">
+  </head>
+  <body
+    class="text-dark-text bg-gradient-to-tl from-bg-purple to-bg-red min-h-screen grid place-items-center"
+  >
+    <h1 hidden>Pig Game</h1>
+    <main
+      class="relative flex flex-col md:flex-row w-[90%] max-w-[100rem] h-[90vh] md:h-[50rem] rounded-3xl bg-glass-white backdrop-blur-[20rem] overflow-hidden border-6 border-white/20 shadow-2xl"
+    >
+      <section class="player player--0 player--active section-shape ">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1 section-shape">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+      <img
+        src="dice-5.png"
+        alt="Playing dice"
+        class="dice absolute rounded-2xl size-20 md:size-30 left-1/2 top-1/2 -translate-y-1/2 md:top-70 -translate-x-1/2 shadow-xl"
+      />
+      <button class="btn btn--new top-4 md:top-12 btn-shape">
+        🔄 New game
+      </button>
+      <button
+        class="btn btn--roll bottom-4 left-[30%] md:left-1/2 md:bottom-40 btn-shape"
+      >
+        🎲 Roll
+      </button>
+      <button
+        class="btn btn--hold bottom-4 left-[70%] md:left-1/2 md:bottom-10 btn-shape"
+      >
+        📥 Hold
+      </button>
+    </main>
+  </body>
+</html>
